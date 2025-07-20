@@ -26,16 +26,8 @@ interface Creator {
 }
 
 export default function DiscoverScreen() {
-  const [user, setUser] = useState(null);
   const [creators, setCreators] = useState<Creator[]>([]);
   const [refreshing, setRefreshing] = useState(false);
-
-  useEffect(() => {
-    const unsubscribe = blink.auth.onAuthStateChanged((state) => {
-      setUser(state.user);
-    });
-    return unsubscribe;
-  }, []);
 
   useEffect(() => {
     loadCreators();
@@ -90,13 +82,7 @@ export default function DiscoverScreen() {
     setRefreshing(false);
   };
 
-  if (!user) {
-    return (
-      <SafeAreaView style={styles.loadingContainer}>
-        <Text style={styles.loadingText}>Loading...</Text>
-      </SafeAreaView>
-    );
-  }
+
 
   return (
     <SafeAreaView style={styles.container}>
@@ -198,16 +184,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#FAFAFA',
-  },
-  loadingContainer: {
-    flex: 1,
-    backgroundColor: '#FAFAFA',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  loadingText: {
-    fontSize: 18,
-    color: '#6B7280',
   },
   header: {
     paddingHorizontal: 16,
