@@ -1,0 +1,155 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.17.1
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/user/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm install tailwindcss@^3.4.0
+7 verbose argv "install" "tailwindcss@^3.4.0" "--legacy-peer-deps"
+8 verbose logfile logs-max:10 dir:/home/user/.npm/_logs/2025-07-20T05_39_03_718Z-
+9 verbose logfile /home/user/.npm/_logs/2025-07-20T05_39_03_718Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:530317312 maxSize:132579328 maxEntrySize:66289664
+12 silly idealTree buildDeps
+13 silly fetch manifest tailwindcss@^3.4.0
+14 silly packumentCache full:https://registry.npmjs.org/tailwindcss cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/tailwindcss 905ms (cache miss)
+16 silly packumentCache full:https://registry.npmjs.org/tailwindcss set size:undefined disposed:false
+17 silly placeDep ROOT tailwindcss@3.4.17 REPLACE for: blink-expo-starter@1.0.0 want: ^3.4.0
+18 silly reify mark retired [
+18 silly reify   '/home/user/node_modules/@babel/plugin-bugfix-firefox-class-in-computed-class-key'
+18 silly reify ]
+19 silly reify mark retired [
+19 silly reify   '/home/user/node_modules/@babel/plugin-bugfix-safari-class-field-initializer-scope'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   '/home/user/node_modules/@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression'
+20 silly reify ]
+21 silly reify mark retired [
+21 silly reify   '/home/user/node_modules/@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining'
+21 silly reify ]
+22 silly reify mark retired [
+22 silly reify   '/home/user/node_modules/@babel/plugin-bugfix-v8-static-class-fields-redefine-readonly'
+22 silly reify ]
+23 silly reify mark retired [
+23 silly reify   '/home/user/node_modules/@babel/plugin-proposal-private-property-in-object'
+23 silly reify ]
+24 silly reify mark retired [ '/home/user/node_modules/@babel/plugin-syntax-import-assertions' ]
+25 silly reify mark retired [ '/home/user/node_modules/@babel/plugin-syntax-unicode-sets-regex' ]
+26 silly reify mark retired [
+26 silly reify   '/home/user/node_modules/@babel/plugin-transform-block-scoped-functions'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   '/home/user/node_modules/@babel/plugin-transform-class-static-block'
+27 silly reify ]
+28 silly reify mark retired [ '/home/user/node_modules/@babel/plugin-transform-dotall-regex' ]
+29 silly reify mark retired [ '/home/user/node_modules/@babel/plugin-transform-duplicate-keys' ]
+30 silly reify mark retired [
+30 silly reify   '/home/user/node_modules/@babel/plugin-transform-duplicate-named-capturing-groups-regex'
+30 silly reify ]
+31 silly reify mark retired [ '/home/user/node_modules/@babel/plugin-transform-dynamic-import' ]
+32 silly reify mark retired [
+32 silly reify   '/home/user/node_modules/@babel/plugin-transform-explicit-resource-management'
+32 silly reify ]
+33 silly reify mark retired [
+33 silly reify   '/home/user/node_modules/@babel/plugin-transform-exponentiation-operator'
+33 silly reify ]
+34 silly reify mark retired [ '/home/user/node_modules/@babel/plugin-transform-json-strings' ]
+35 silly reify mark retired [
+35 silly reify   '/home/user/node_modules/@babel/plugin-transform-member-expression-literals'
+35 silly reify ]
+36 silly reify mark retired [ '/home/user/node_modules/@babel/plugin-transform-modules-amd' ]
+37 silly reify mark retired [ '/home/user/node_modules/@babel/plugin-transform-modules-systemjs' ]
+38 silly reify mark retired [ '/home/user/node_modules/@babel/plugin-transform-modules-umd' ]
+39 silly reify mark retired [ '/home/user/node_modules/@babel/plugin-transform-new-target' ]
+40 silly reify mark retired [ '/home/user/node_modules/@babel/plugin-transform-object-super' ]
+41 silly reify mark retired [ '/home/user/node_modules/@babel/plugin-transform-property-literals' ]
+42 silly reify mark retired [ '/home/user/node_modules/@babel/plugin-transform-regexp-modifiers' ]
+43 silly reify mark retired [ '/home/user/node_modules/@babel/plugin-transform-reserved-words' ]
+44 silly reify mark retired [ '/home/user/node_modules/@babel/plugin-transform-typeof-symbol' ]
+45 silly reify mark retired [ '/home/user/node_modules/@babel/plugin-transform-unicode-escapes' ]
+46 silly reify mark retired [
+46 silly reify   '/home/user/node_modules/@babel/plugin-transform-unicode-property-regex'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   '/home/user/node_modules/@babel/plugin-transform-unicode-sets-regex'
+47 silly reify ]
+48 silly reify mark retired [ '/home/user/node_modules/@babel/preset-env' ]
+49 silly reify mark retired [ '/home/user/node_modules/@babel/preset-modules' ]
+50 silly reify moves {
+50 silly reify   '/home/user/node_modules/@babel/plugin-bugfix-firefox-class-in-computed-class-key': '/home/user/node_modules/@babel/.plugin-bugfix-firefox-class-in-computed-class-key-zWaOCK8W',
+50 silly reify   '/home/user/node_modules/@babel/plugin-bugfix-safari-class-field-initializer-scope': '/home/user/node_modules/@babel/.plugin-bugfix-safari-class-field-initializer-scope-lfrZkIll',
+50 silly reify   '/home/user/node_modules/@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression': '/home/user/node_modules/@babel/.plugin-bugfix-safari-id-destructuring-collision-in-function-expression-pI7i5lza',
+50 silly reify   '/home/user/node_modules/@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining': '/home/user/node_modules/@babel/.plugin-bugfix-v8-spread-parameters-in-optional-chaining-YLXS32L5',
+50 silly reify   '/home/user/node_modules/@babel/plugin-bugfix-v8-static-class-fields-redefine-readonly': '/home/user/node_modules/@babel/.plugin-bugfix-v8-static-class-fields-redefine-readonly-PUyAD48c',
+50 silly reify   '/home/user/node_modules/@babel/plugin-proposal-private-property-in-object': '/home/user/node_modules/@babel/.plugin-proposal-private-property-in-object-J0lQIhL4',
+50 silly reify   '/home/user/node_modules/@babel/plugin-syntax-import-assertions': '/home/user/node_modules/@babel/.plugin-syntax-import-assertions-5Tp5mIzS',
+50 silly reify   '/home/user/node_modules/@babel/plugin-syntax-unicode-sets-regex': '/home/user/node_modules/@babel/.plugin-syntax-unicode-sets-regex-TXdAf7Ua',
+50 silly reify   '/home/user/node_modules/@babel/plugin-transform-block-scoped-functions': '/home/user/node_modules/@babel/.plugin-transform-block-scoped-functions-GBEMVS61',
+50 silly reify   '/home/user/node_modules/@babel/plugin-transform-class-static-block': '/home/user/node_modules/@babel/.plugin-transform-class-static-block-6RVZuIlS',
+50 silly reify   '/home/user/node_modules/@babel/plugin-transform-dotall-regex': '/home/user/node_modules/@babel/.plugin-transform-dotall-regex-xXfruVbI',
+50 silly reify   '/home/user/node_modules/@babel/plugin-transform-duplicate-keys': '/home/user/node_modules/@babel/.plugin-transform-duplicate-keys-M5aImmrV',
+50 silly reify   '/home/user/node_modules/@babel/plugin-transform-duplicate-named-capturing-groups-regex': '/home/user/node_modules/@babel/.plugin-transform-duplicate-named-capturing-groups-regex-ezpeNVaU',
+50 silly reify   '/home/user/node_modules/@babel/plugin-transform-dynamic-import': '/home/user/node_modules/@babel/.plugin-transform-dynamic-import-sVTvrje3',
+50 silly reify   '/home/user/node_modules/@babel/plugin-transform-explicit-resource-management': '/home/user/node_modules/@babel/.plugin-transform-explicit-resource-management-px4GQsmU',
+50 silly reify   '/home/user/node_modules/@babel/plugin-transform-exponentiation-operator': '/home/user/node_modules/@babel/.plugin-transform-exponentiation-operator-HRX2eW7A',
+50 silly reify   '/home/user/node_modules/@babel/plugin-transform-json-strings': '/home/user/node_modules/@babel/.plugin-transform-json-strings-BpYcjCDX',
+50 silly reify   '/home/user/node_modules/@babel/plugin-transform-member-expression-literals': '/home/user/node_modules/@babel/.plugin-transform-member-expression-literals-QKp0OHvu',
+50 silly reify   '/home/user/node_modules/@babel/plugin-transform-modules-amd': '/home/user/node_modules/@babel/.plugin-transform-modules-amd-ojRQRoUt',
+50 silly reify   '/home/user/node_modules/@babel/plugin-transform-modules-systemjs': '/home/user/node_modules/@babel/.plugin-transform-modules-systemjs-AVDPo1r2',
+50 silly reify   '/home/user/node_modules/@babel/plugin-transform-modules-umd': '/home/user/node_modules/@babel/.plugin-transform-modules-umd-7iOpQ1kb',
+50 silly reify   '/home/user/node_modules/@babel/plugin-transform-new-target': '/home/user/node_modules/@babel/.plugin-transform-new-target-HmihTAq4',
+50 silly reify   '/home/user/node_modules/@babel/plugin-transform-object-super': '/home/user/node_modules/@babel/.plugin-transform-object-super-W9sFvGFi',
+50 silly reify   '/home/user/node_modules/@babel/plugin-transform-property-literals': '/home/user/node_modules/@babel/.plugin-transform-property-literals-TlGL7ywx',
+50 silly reify   '/home/user/node_modules/@babel/plugin-transform-regexp-modifiers': '/home/user/node_modules/@babel/.plugin-transform-regexp-modifiers-MEhaWLma',
+50 silly reify   '/home/user/node_modules/@babel/plugin-transform-reserved-words': '/home/user/node_modules/@babel/.plugin-transform-reserved-words-1Bx5iHXh',
+50 silly reify   '/home/user/node_modules/@babel/plugin-transform-typeof-symbol': '/home/user/node_modules/@babel/.plugin-transform-typeof-symbol-0LyEKVN5',
+50 silly reify   '/home/user/node_modules/@babel/plugin-transform-unicode-escapes': '/home/user/node_modules/@babel/.plugin-transform-unicode-escapes-rZL7VmJe',
+50 silly reify   '/home/user/node_modules/@babel/plugin-transform-unicode-property-regex': '/home/user/node_modules/@babel/.plugin-transform-unicode-property-regex-FhuXFSJu',
+50 silly reify   '/home/user/node_modules/@babel/plugin-transform-unicode-sets-regex': '/home/user/node_modules/@babel/.plugin-transform-unicode-sets-regex-cskufOr0',
+50 silly reify   '/home/user/node_modules/@babel/preset-env': '/home/user/node_modules/@babel/.preset-env-m1wCJcyy',
+50 silly reify   '/home/user/node_modules/@babel/preset-modules': '/home/user/node_modules/@babel/.preset-modules-McGiQB6i'
+50 silly reify }
+51 verbose stack Error: EACCES: permission denied, mkdir '/home/user/node_modules/@emnapi/core'
+51 verbose stack     at async mkdir (node:internal/fs/promises:858:10)
+51 verbose stack     at async /usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:624:20
+51 verbose stack     at async Promise.allSettled (index 0)
+51 verbose stack     at async [reifyPackages] (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:325:11)
+51 verbose stack     at async Arborist.reify (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:142:5)
+51 verbose stack     at async Install.exec (/usr/local/lib/node_modules/npm/lib/commands/install.js:150:5)
+51 verbose stack     at async Npm.exec (/usr/local/lib/node_modules/npm/lib/npm.js:207:9)
+51 verbose stack     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:74:5)
+52 error code EACCES
+53 error syscall mkdir
+54 error path /home/user/node_modules/@emnapi/core
+55 error errno -13
+56 error Error: EACCES: permission denied, mkdir '/home/user/node_modules/@emnapi/core'
+56 error     at async mkdir (node:internal/fs/promises:858:10)
+56 error     at async /usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:624:20
+56 error     at async Promise.allSettled (index 0)
+56 error     at async [reifyPackages] (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:325:11)
+56 error     at async Arborist.reify (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:142:5)
+56 error     at async Install.exec (/usr/local/lib/node_modules/npm/lib/commands/install.js:150:5)
+56 error     at async Npm.exec (/usr/local/lib/node_modules/npm/lib/npm.js:207:9)
+56 error     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:74:5) {
+56 error   errno: -13,
+56 error   code: 'EACCES',
+56 error   syscall: 'mkdir',
+56 error   path: '/home/user/node_modules/@emnapi/core'
+56 error }
+57 error
+57 error The operation was rejected by your operating system.
+57 error It is likely you do not have the permissions to access this file as the current user
+57 error
+57 error If you believe this might be a permissions issue, please double-check the
+57 error permissions of the file and its containing directories, or try running
+57 error the command again as root/Administrator.
+58 silly unfinished npm timer reify 1752989944110
+59 silly unfinished npm timer reify:createSparse 1752989946007
+60 verbose cwd /home/user
+61 verbose os Linux 6.1.102
+62 verbose node v22.17.1
+63 verbose npm  v10.9.2
+64 verbose exit -13
+65 verbose code -13
+66 error A complete log of this run can be found in: /home/user/.npm/_logs/2025-07-20T05_39_03_718Z-debug-0.log
